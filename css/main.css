@@ -1,0 +1,41 @@
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+
+  background: url(/media/outside.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+a {
+  color: rgba(0, 125, 255, 0.87);
+  text-decoration: none;
+}
+  a:hover, a:focus {
+    text-decoration: underline;
+    font-style: italic;
+  }
+
+#splash-overlay {
+  padding: 80px 100px 20px 100px; text-align: center;
+  color: rgba(255, 255, 255, 0.99); text-shadow: 2px 2px rgba(0, 0, 0, 0.5);
+  font-family: 'Roboto', sans-serif; font-size: 108px; font-weight: 700;
+}
+
+#gaunt-face {
+  margin: 20px 0px 20px 0px;
+  height: 400px;
+  box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+  background: url('/media/gaunt_face.jpg') no-repeat center center;
+}
+  #gaunt-face:hover {
+    background: url('/media/angry_man.jpg') no-repeat center center;
+  }
